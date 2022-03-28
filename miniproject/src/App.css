@@ -1,0 +1,45 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: aqua;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  margin: 40vh;
+}
+.kotak{
+  width: 320px;
+}
+.login h1{
+  color:white;
+  text-align: center;
+}
+ul{
+  text-align: right;
+}
+ul li{
+  display: inline-flex;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.login .input{
+  margin-block-start: 5px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sumbit input{
+  color: white;
+  background-color: black;
+  margin-block-start: 15px;
+  width: 320px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
